@@ -3,13 +3,13 @@ import React from 'react'
 export default function Header() {
   return (
     <header>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
-        <div className="container">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div className="container px-lg-5">
           <a className="navbar-brand fw-bold" href="#">
             Start Bootstrap
           </a>
           
-          {/* <button 
+          <button 
             className="navbar-toggler" 
             type="button" 
             data-bs-toggle="collapse" 
@@ -19,12 +19,12 @@ export default function Header() {
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
-          </button> */}
+          </button>
           
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ms-auto">
+          <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="#">Home</a>
+                <a className="nav-link active" href="#">Home</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">About</a>
